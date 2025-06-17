@@ -1,12 +1,6 @@
 # Robotic Arm
 A 3-joint robotic arm resembling a crab claw.
 
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
-
 | **Yash K** | **Dougherty Valley High School** | **Mechanical Engineering** | **Incoming Junior** |
 |:--:|:--:|:--:|:--:|
 <!--| FirstName LastInitialOnly | School Name | Electrical Engineering | Incoming Senior -->
