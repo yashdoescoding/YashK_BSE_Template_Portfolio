@@ -1,5 +1,5 @@
 # Robotic Arm
-A 3-joint robotic arm resembling a crab claw.
+A 4-axis robotic arm resembling a crab claw.
 
 | **Yash K** | **Dougherty Valley High School** | **Mechanical Engineering** | **Incoming Junior** |
 |:--:|:--:|:--:|:--:|
