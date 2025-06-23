@@ -1,9 +1,9 @@
 # Robotic Arm
 A 4-axis robotic arm resembling a crab claw.
 
-| **Yash K** | **Dougherty Valley High School** | **Mechanical Engineering** | **Incoming Junior** |
+| **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-<!--| FirstName LastInitialOnly | School Name | Electrical Engineering | Incoming Senior -->
+| Yash K | Dougherty Valley High School | Mechanical Engineering | Incoming Junior
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
