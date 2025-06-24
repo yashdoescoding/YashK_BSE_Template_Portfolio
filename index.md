@@ -1,5 +1,5 @@
 # Robotic Arm
-A 4-axis robotic arm resembling a crab claw.
+A 3-joint robotic arm resembling a crab claw.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -41,9 +41,11 @@ For your second milestone, explain what you've worked on since your previous mil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-My project is a 2-joint robotic arm. It has a rotating base, an elbow joint, a wrist joint, and two fingers for grabbing and releasing objects. Additionally, it has an Arduino Nano board, a Nano shield, a 9-volt battery power supply, and a double joystick controller. Due to the fact that the default batteries were two 18650 batteries, I had to use a different nanoshield than the default project. A nanoboard is a microcontroller that can memorize inputs and can be programmed to interact with sensors, lights, motors, and other devices, such as your smartphone. The Nano shield is an extension of the nanoboard which connects directly into the nanoboard and offers extra connectivity for wires and power supplies. The robot is moved by servos, motors with wires that attach to the nano shield to communicate with the Nano board. Essentially, inputs from the controller are sent to the Nano board, which communicate with the servos to move the robot.
+My project is a 3-joint robotic arm. It has a rotating base, an elbow joint, a wrist joint, and two fingers for grabbing and releasing objects. It also includes an Arduino Nano board, a Nano shield, a 9-volt battery power supply, and a double joystick controller. Since the default batteries for the project are two 18650 cells, I had to use a different Nano shield than the one originally intended.
 
-I faced a variety of challenges during this first milestone. Firstly, I had to improvise by using a different Nano shield and power supply than the base project. Secondly, I have some issues with the code in which the servos suddenly jolt back whenever I run the program, and there is also limited motion with the robot's first joint.
+The Nano board is a microcontroller that can store inputs and be programmed to interact with sensors, lights, motors, and other devices, similar to what you'd find in a smartphone. The shield is an extension that plugs directly into the board and provides additional ports for wiring and power. The robot is moved by servo motors, which are connected to the shield and receive commands from the Nano board. In short, inputs from the joysticks are sent to the Nano, which then controls the servos to move the robotic arm.
+
+I faced a few challenges during this first milestone. First, I had to improvise by using a different Nano shield and power supply than the default project setup. Second, I’m currently dealing with some issues in the code. Specifically, the servos jolt back suddenly when I start the program, and there’s limited motion in the robot's first joint.
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
