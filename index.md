@@ -25,7 +25,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 # Second Milestone
 
 
-<iframe src="https://drive.google.com/file/d/1XJAqwOgllVB1CP3q6nWrSjv1j_tgsvWD/preview" width="640" height="480" allow="autoplay"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wNetQUnG5y0?si=vFPZT-OGsVVSfHdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
