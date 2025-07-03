@@ -51,16 +51,48 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
+#include <Servo.h>
+
+Servo servo1;
+Servo servo2;
+Servo servo3;
+Servo servo4;
+
 void setup() {
-  // put your setup code here, to run once:
   Serial.begin(9600);
-  Serial.println("Hello World!");
+  servo1.attach(3);
+  servo2.attach(5);
+  servo3.attach(6);
+  servo4.attach(9);
+
+  // Set initial positions
+  servo1.write(90);
+  servo2.write(90);
+  servo3.write(90);
+  servo4.write(90);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  if (Serial.available()) {
+    String command = Serial.readStringUntil('\n');
+    command.trim();
 
+    if (command.startsWith("S1:")) {
+      int angle = command.substring(3).toInt();
+      servo1.write(constrain(angle, 0, 180));
+    } else if (command.startsWith("S2:")) {
+      int angle = command.substring(3).toInt();
+      servo2.write(constrain(angle, 0, 180));
+    } else if (command.startsWith("S3:")) {
+      int angle = command.substring(3).toInt();
+      servo3.write(constrain(angle, 0, 180));
+    } else if (command.startsWith("S4:")) {
+      int angle = command.substring(3).toInt();
+      servo4.write(constrain(angle, 0, 180));
+    }
+  }
 }
+
 ```
 
 # Bill of Materials
